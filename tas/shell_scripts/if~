@@ -1,0 +1,11 @@
+#!/bin/sh
+
+NAME="bla"
+echo $NAME
+
+if [ ! -z "$NAME" ]; then
+	echo "Is not Zero"
+else
+	echo "Is zero"
+fi
+
