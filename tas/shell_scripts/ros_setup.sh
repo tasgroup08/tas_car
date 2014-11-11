@@ -11,6 +11,7 @@ DIR=$(pwd)
 #-----------Add udev rule------------
 #------------------------------------
 
+echo "------------------------------------"
 echo "Set up UDEV rules for laserscanners and arduino..."
 
 #Remove if already existing and then copy UDEV file
@@ -26,6 +27,8 @@ sudo cp $DIR/10-tas.rules /etc/udev/rules.d
 echo "------------------------------------"
 echo "Set up ROS environment"
 
+echo "" >> ~/.bashrc
+echo "#Source commands to set up ROS environment" >> ~/.bashrc
 echo "source /opt/ros/indigo/setup.bash" >> ~/.bashrc
 echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
 
