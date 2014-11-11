@@ -26,8 +26,8 @@ sudo cp $DIR/10-tas.rules /etc/udev/rules.d
 echo "------------------------------------"
 echo "Set up ROS environment"
 
-echo "source /opt/ros/hydro/setup.bash" > ~/.bashrc
-echo "source ~/catkin_ws/devel/setup.bash" > ~/.bashrc
+echo "source /opt/ros/hydro/setup.bash" >> ~/.bashrc
+echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
 
 exit
 
