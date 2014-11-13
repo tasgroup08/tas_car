@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.1)  30 OCT 2014 19:01
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9) (preloaded format=pdflatex 2014.3.1)  13 NOV 2014 12:45
 entering extended mode
 **LSR*-*TAS.tex
-("C:\Users\Alex\Documents\Uni\Job\LSR\Latex\LSR - TAS.tex"
+("C:\Users\Alex\Documents\Uni\Job\LSR\tas_car\tas\doc\Latex\LSR - TAS.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, arabic, armenian, assamese, basque, bengali
 , bokmal, bulgarian, catalan, coptic, croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, galic
@@ -10,7 +10,7 @@ ian, german, german-x-2013-05-26, greek, gujarati, hindi, hungarian, icelandic, 
 -x-2013-05-26, nynorsk, oriya, panjabi, pinyin, polish, portuguese, romanian, russian, sanskrit, serbian, slovak, sloven
 ian, spanish, swedish, swissgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usenglishmax, w
 elsh, loaded.
-(C:\Users\Alex\Documents\Uni\Job\LSR\Latex\header.tex
+(C:\Users\Alex\Documents\Uni\Job\LSR\tas_car\tas\doc\Latex\header.tex
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrreprt.cls"
 Document Class: scrreprt 2013/12/19 v3.12 KOMA-Script document class (report)
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\koma-script\scrkbase.sty"
@@ -1796,9 +1796,9 @@ Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \listing@line=\count295
 )
 \verbatim@out=\write5
-runsystem(echo t > "w18-test-201410301141.tex")...executed.
+runsystem(echo t > "w18-test-20141113765.tex")...executed.
 
-runsystem(del "w18-test-201410301141.tex")...executed.
+runsystem(del "w18-test-20141113765.tex")...executed.
 
 Package gnuplottex Info: Automatically converting gnuplot files. on input line 109.
 \c@fignum=\count296
@@ -1811,7 +1811,7 @@ Package gnuplottex Info: Automatically converting gnuplot files. on input line 1
 \WF@everypar=\toks44
 Package: wrapfig 2003/01/31  v 3.6
 ))
-(C:\Users\Alex\Documents\Uni\Job\LSR\Latex\makros.tex
+(C:\Users\Alex\Documents\Uni\Job\LSR\tas_car\tas\doc\Latex\makros.tex
 \c@todo=\count298
 \cftbeforetodoskip=\skip126
 \cfttodoindent=\skip127
@@ -1819,12 +1819,13 @@ Package: wrapfig 2003/01/31  v 3.6
 \c@tododepth=\count299
 \cftbeforetodotitleskip=\skip129
 \cftaftertodotitleskip=\skip130
-) ("C:\Users\Alex\Documents\Uni\Job\LSR\Latex\LSR - TAS.aux"
-(C:\Users\Alex\Documents\Uni\Job\LSR\Latex\chapters/0_frontpage.aux)
-(C:\Users\Alex\Documents\Uni\Job\LSR\Latex\chapters/1_overview.aux)
-(C:\Users\Alex\Documents\Uni\Job\LSR\Latex\chapters/4_setup.aux)
-(C:\Users\Alex\Documents\Uni\Job\LSR\Latex\chapters/2_tas_package.aux)
-(C:\Users\Alex\Documents\Uni\Job\LSR\Latex\chapters/3_advanced.aux
+)
+("C:\Users\Alex\Documents\Uni\Job\LSR\tas_car\tas\doc\Latex\LSR - TAS.aux"
+(C:\Users\Alex\Documents\Uni\Job\LSR\tas_car\tas\doc\Latex\chapters/0_frontpage.aux)
+(C:\Users\Alex\Documents\Uni\Job\LSR\tas_car\tas\doc\Latex\chapters/1_overview.aux)
+(C:\Users\Alex\Documents\Uni\Job\LSR\tas_car\tas\doc\Latex\chapters/4_setup.aux)
+(C:\Users\Alex\Documents\Uni\Job\LSR\tas_car\tas\doc\Latex\chapters/2_tas_package.aux)
+(C:\Users\Alex\Documents\Uni\Job\LSR\tas_car\tas\doc\Latex\chapters/3_advanced.aux
 
 LaTeX Warning: Label `sec:advanced_ide' multiply defined.
 
@@ -1939,7 +1940,8 @@ LaTeX Info: Redefining \ref on input line 28.
 LaTeX Info: Redefining \pageref on input line 28.
 LaTeX Info: Redefining \nameref on input line 28.
 
-("C:\Users\Alex\Documents\Uni\Job\LSR\Latex\LSR - TAS.out") ("C:\Users\Alex\Documents\Uni\Job\LSR\Latex\LSR - TAS.out")
+("C:\Users\Alex\Documents\Uni\Job\LSR\tas_car\tas\doc\Latex\LSR - TAS.out")
+("C:\Users\Alex\Documents\Uni\Job\LSR\tas_car\tas\doc\Latex\LSR - TAS.out")
 \@outlinefile=\write6
 LaTeX Info: Redefining \Ref on input line 28.
 Package caption Info: Begin \AtBeginDocument code.
@@ -2003,8 +2005,8 @@ LaTeX Font Info:    Try loading font information for OT1+pxtt on input line 28.
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pxfonts\ot1pxtt.fd"
 File: ot1pxtt.fd 2000/12/14 v1.0
 )
-(C:\Users\Alex\Documents\Uni\Job\LSR\Latex\chapters/0_frontpage.tex
-<pics/tum_logo.png, id=166, 411.03563pt x 155.83218pt>
+(C:\Users\Alex\Documents\Uni\Job\LSR\tas_car\tas\doc\Latex\chapters/0_frontpage.tex
+<pics/tum_logo.png, id=162, 411.03563pt x 155.83218pt>
 File: pics/tum_logo.png Graphic file (type png)
  <use pics/tum_logo.png>
 Package pdftex.def Info: pics/tum_logo.png used on input line 8.
@@ -2013,7 +2015,7 @@ LaTeX Font Info:    Try loading font information for T1+pxss on input line 12.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pxfonts\t1pxss.fd"
 File: t1pxss.fd 2000/12/14 v1.0
-) <pics/lsr_logo.png, id=168, 100.375pt x 111.41624pt>
+) <pics/lsr_logo.png, id=164, 100.375pt x 111.41624pt>
 File: pics/lsr_logo.png Graphic file (type png)
 
 <use pics/lsr_logo.png>
@@ -2039,9 +2041,9 @@ Class scrreprt Warning: Usage of deprecated font command `\bf'!
 
 
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Alex/Documents/Uni/Job/LSR/Latex/pics/tum_logo.png> <C:/U
-sers/Alex/Documents/Uni/Job/LSR/Latex/pics/lsr_logo.png>]) ("C:\Users\Alex\Documents\Uni\Job\LSR\Latex\LSR - TAS.toc"
-[2
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <C:/Users/Alex/Documents/Uni/Job/LSR/tas_car/tas/doc/Latex/pics/tum
+_logo.png> <C:/Users/Alex/Documents/Uni/Job/LSR/tas_car/tas/doc/Latex/pics/lsr_logo.png>])
+("C:\Users\Alex\Documents\Uni\Job\LSR\tas_car\tas\doc\Latex\LSR - TAS.toc" [2
 
 ])
 \tf@toc=\write7
@@ -2064,7 +2066,7 @@ Class scrreprt Warning: Usage of deprecated font command `\rm'!
 (scrreprt)              But for now, KOMA-Script will replace deprecated `\rm'
 (scrreprt)              by `\normalfont \rmfamily ' on input line 48.
 
-[1] (C:\Users\Alex\Documents\Uni\Job\LSR\Latex\chapters/1_overview.tex
+[1] (C:\Users\Alex\Documents\Uni\Job\LSR\tas_car\tas\doc\Latex\chapters/1_overview.tex
 Chapter 1.
 
 Class scrreprt Warning: \float@addtolists detected!
@@ -2081,7 +2083,7 @@ Class scrreprt Warning: \float@addtolists detected!
 (scrreprt)              a package that still implements the
 (scrreprt)              deprecated \float@addtolist interface .
 
-<pics/car.jpg, id=227, 2848.6425pt x 2258.4375pt>
+<pics/car.jpg, id=222, 2848.6425pt x 2258.4375pt>
 File: pics/car.jpg Graphic file (type jpg)
  <use pics/car.jpg>
 Package pdftex.def Info: pics/car.jpg used on input line 15.
@@ -2089,7 +2091,8 @@ Package pdftex.def Info: pics/car.jpg used on input line 15.
  [2
 
 
- <C:/Users/Alex/Documents/Uni/Job/LSR/Latex/pics/car.jpg>] <pics/brushless_motor.jpg, id=233, 4336.2pt x 2890.8pt>
+ <C:/Users/Alex/Documents/Uni/Job/LSR/tas_car/tas/doc/Latex/pics/car.jpg>] <pics/brushless_motor.jpg, id=228, 4336.2pt x
+ 2890.8pt>
 File: pics/brushless_motor.jpg Graphic file (type jpg)
  <use pics/brushless_motor.jpg>
 Package pdftex.def Info: pics/brushless_motor.jpg used on input line 37.
@@ -2099,10 +2102,7 @@ Package pdftex.def Info: pics/brushless_motor.jpg used on input line 37.
 LaTeX Warning: Hyper reference `http://www.hacker-carline.de/produkte/skalar-motoren/hacker-skalar-10/' on page 3 undefi
 ned on input line 45.
 
-
-LaTeX Warning: Reference `fig:rccar_steering' on page 3 undefined on input line 63.
-
-<pics/pwm_signals.jpg, id=237, 711.65875pt x 244.915pt>
+<pics/pwm_signals.jpg, id=232, 711.65875pt x 244.915pt>
 File: pics/pwm_signals.jpg Graphic file (type jpg)
  <use pics/pwm_signals.jpg>
 Package pdftex.def Info: pics/pwm_signals.jpg used on input line 69.
@@ -2111,7 +2111,7 @@ Package pdftex.def Info: pics/pwm_signals.jpg used on input line 69.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<pics/arduino.jpg, id=238, 451.6875pt x 297.11pt>
+<pics/arduino.jpg, id=233, 451.6875pt x 297.11pt>
 File: pics/arduino.jpg Graphic file (type jpg)
  <use pics/arduino.jpg>
 Package pdftex.def Info: pics/arduino.jpg used on input line 79.
@@ -2135,7 +2135,7 @@ Class scrreprt Warning: Usage of deprecated font command `\rm'!
 (scrreprt)              But for now, KOMA-Script will replace deprecated `\rm'
 (scrreprt)              by `\normalfont \rmfamily ' on input line 82.
 
-[3 <C:/Users/Alex/Documents/Uni/Job/LSR/Latex/pics/brushless_motor.jpg>]
+[3 <C:/Users/Alex/Documents/Uni/Job/LSR/tas_car/tas/doc/Latex/pics/brushless_motor.jpg>]
 
 LaTeX Warning: Hyper reference `http://www.supermicro.com/products/motherboard/Core/H81/X10SLV.cfm' on page 4 undefined 
 on input line 91.
@@ -2159,10 +2159,11 @@ Class scrreprt Warning: Usage of deprecated font command `\rm'!
 (scrreprt)              But for now, KOMA-Script will replace deprecated `\rm'
 (scrreprt)              by `\normalfont \rmfamily ' on input line 107.
 
-[4 <C:/Users/Alex/Documents/Uni/Job/LSR/Latex/pics/pwm_signals.jpg> <C:/Users/Alex/Documents/Uni/Job/LSR/Latex/pics/ardu
-ino.jpg>] <pics/hokuyo_urg_04lx.jpg, id=256, 1668.2325pt x 1903.11pt>
+[4 <C:/Users/Alex/Documents/Uni/Job/LSR/tas_car/tas/doc/Latex/pics/pwm_signals.jpg> <C:/Users/Alex/Documents/Uni/Job/LSR
+/tas_car/tas/doc/Latex/pics/arduino.jpg>] <pics/hokuyo_urg_04lx.jpg, id=251, 1668.2325pt x 1903.11pt>
 File: pics/hokuyo_urg_04lx.jpg Graphic file (type jpg)
- <use pics/hokuyo_urg_04lx.jpg>
+
+<use pics/hokuyo_urg_04lx.jpg>
 Package pdftex.def Info: pics/hokuyo_urg_04lx.jpg used on input line 113.
 (pdftex.def)             Requested size: 149.37958pt x 170.40134pt.
 
@@ -2193,8 +2194,8 @@ Class scrreprt Warning: Usage of deprecated font command `\rm'!
 (scrreprt)              But for now, KOMA-Script will replace deprecated `\rm'
 (scrreprt)              by `\normalfont \rmfamily ' on input line 138.
 
-[5 <C:/Users/Alex/Documents/Uni/Job/LSR/Latex/pics/hokuyo_urg_04lx.jpg>]
-<pics/xsens.jpg, id=266, 1933.2225pt x 1439.3775pt>
+[5 <C:/Users/Alex/Documents/Uni/Job/LSR/tas_car/tas/doc/Latex/pics/hokuyo_urg_04lx.jpg>]
+<pics/xsens.jpg, id=261, 1933.2225pt x 1439.3775pt>
 File: pics/xsens.jpg Graphic file (type jpg)
  <use pics/xsens.jpg>
 Package pdftex.def Info: pics/xsens.jpg used on input line 144.
@@ -2226,7 +2227,7 @@ Class scrreprt Warning: Usage of deprecated font command `\rm'!
 (scrreprt)              But for now, KOMA-Script will replace deprecated `\rm'
 (scrreprt)              by `\normalfont \rmfamily ' on input line 48.
 
-[6 <C:/Users/Alex/Documents/Uni/Job/LSR/Latex/pics/xsens.jpg>]
+[6 <C:/Users/Alex/Documents/Uni/Job/LSR/tas_car/tas/doc/Latex/pics/xsens.jpg>]
 File: pics/lsr_logo.png Graphic file (type png)
  <use pics/lsr_logo.png>
 Package pdftex.def Info: pics/lsr_logo.png used on input line 48.
@@ -2246,7 +2247,7 @@ Class scrreprt Warning: Usage of deprecated font command `\rm'!
 (scrreprt)              But for now, KOMA-Script will replace deprecated `\rm'
 (scrreprt)              by `\normalfont \rmfamily ' on input line 48.
 
-[7] (C:\Users\Alex\Documents\Uni\Job\LSR\Latex\chapters/4_setup.tex
+[7] (C:\Users\Alex\Documents\Uni\Job\LSR\tas_car\tas\doc\Latex\chapters/4_setup.tex
 
 ! LaTeX Error: Command \makro already defined.
                Or name \end... illegal, see p.192 of the manual.
@@ -2262,44 +2263,31 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 Chapter 2.
-<pics/switches.jpg, id=280, 1381.16pt x 2240.37pt>
+<pics/switches.jpg, id=275, 1381.16pt x 2240.37pt>
 File: pics/switches.jpg Graphic file (type jpg)
  <use pics/switches.jpg>
 Package pdftex.def Info: pics/switches.jpg used on input line 24.
 (pdftex.def)             Requested size: 140.84192pt x 228.42583pt.
-
-
-LaTeX Warning: Reference `fig:' on page 8 undefined on input line 30.
-
 LaTeX Font Info:    Try loading font information for T1+pxtt on input line 34.
+
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pxfonts\t1pxtt.fd"
 File: t1pxtt.fd 2000/12/14 v1.0
-)
-
-LaTeX Warning: Reference `sec:' on page 8 undefined on input line 34.
-
-
-LaTeX Warning: Reference `sec:' on page 8 undefined on input line 36.
-
-[8
+) [8
 
 
 
- <C:/Users/Alex/Documents/Uni/Job/LSR/Latex/pics/switches.jpg>] <pics/ext_power.jpg, id=287, 2260.445pt x 1927.2pt>
+ <C:/Users/Alex/Documents/Uni/Job/LSR/tas_car/tas/doc/Latex/pics/switches.jpg>] <pics/ext_power.jpg, id=283, 2260.445pt 
+x 1927.2pt>
 File: pics/ext_power.jpg Graphic file (type jpg)
-
-<use pics/ext_power.jpg>
+ <use pics/ext_power.jpg>
 Package pdftex.def Info: pics/ext_power.jpg used on input line 48.
 (pdftex.def)             Requested size: 234.73654pt x 200.11237pt.
- <pics/batt_power.jpg, id=289, 2537.48pt x 1642.135pt>
+
+<pics/batt_power.jpg, id=285, 2537.48pt x 1642.135pt>
 File: pics/batt_power.jpg Graphic file (type jpg)
  <use pics/batt_power.jpg>
 Package pdftex.def Info: pics/batt_power.jpg used on input line 59.
 (pdftex.def)             Requested size: 234.73654pt x 151.89511pt.
-
-
-LaTeX Warning: Reference `fig:' on page 9 undefined on input line 63.
-
 )
 File: pics/lsr_logo.png Graphic file (type png)
  <use pics/lsr_logo.png>
@@ -2320,8 +2308,9 @@ Class scrreprt Warning: Usage of deprecated font command `\rm'!
 (scrreprt)              But for now, KOMA-Script will replace deprecated `\rm'
 (scrreprt)              by `\normalfont \rmfamily ' on input line 49.
 
-[9 <C:/Users/Alex/Documents/Uni/Job/LSR/Latex/pics/ext_power.jpg> <C:/Users/Alex/Documents/Uni/Job/LSR/Latex/pics/batt_p
-ower.jpg>] (C:\Users\Alex\Documents\Uni\Job\LSR\Latex\chapters/2_tas_package.tex
+[9 <C:/Users/Alex/Documents/Uni/Job/LSR/tas_car/tas/doc/Latex/pics/ext_power.jpg> <C:/Users/Alex/Documents/Uni/Job/LSR/t
+as_car/tas/doc/Latex/pics/batt_power.jpg>]
+(C:\Users\Alex\Documents\Uni\Job\LSR\tas_car\tas\doc\Latex\chapters/2_tas_package.tex
 
 ! LaTeX Error: Command \makro already defined.
                Or name \end... illegal, see p.192 of the manual.
@@ -2337,7 +2326,7 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 Chapter 3.
-<diagrams/tas_folder_struct.png, id=297, 880.28876pt x 348.30125pt>
+<diagrams/tas_folder_struct.png, id=294, 880.28876pt x 348.30125pt>
 File: diagrams/tas_folder_struct.png Graphic file (type png)
  <use diagrams/tas_folder_struct.png>
 Package pdftex.def Info: diagrams/tas_folder_struct.png used on input line 13.
@@ -2346,7 +2335,7 @@ Package pdftex.def Info: diagrams/tas_folder_struct.png used on input line 13.
 
 
 
- <C:/Users/Alex/Documents/Uni/Job/LSR/Latex/diagrams/tas_folder_struct.png>]
+ <C:/Users/Alex/Documents/Uni/Job/LSR/tas_car/tas/doc/Latex/diagrams/tas_folder_struct.png>]
 Runaway argument?
 {sec:tas_package_install 
 ! Paragraph ended before \label was complete.
@@ -2359,26 +2348,23 @@ control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 24--28
+Underfull \hbox (badness 10000) in paragraph at lines 24--26
 
  []
 
-! Too many }'s.
-<recently read> }
-                 
-l.33 ...llcmd{sudo gedit \textasciitilde/.bashrc}}
-                                                  
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--31
+
+ []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--39
+Underfull \hbox (badness 10000) in paragraph at lines 45--47
 
  []
 
 File: pics/lsr_logo.png Graphic file (type png)
 <use pics/lsr_logo.png>
-Package pdftex.def Info: pics/lsr_logo.png used on input line 53.
+Package pdftex.def Info: pics/lsr_logo.png used on input line 50.
 (pdftex.def)             Requested size: 32.041pt x 35.56593pt.
 
 
@@ -2393,22 +2379,22 @@ Class scrreprt Warning: Usage of deprecated font command `\rm'!
 (scrreprt)              Note also, that KOMA-Script will remove the definition
 (scrreprt)              of `\rm' anytime until release of about version 3.20.
 (scrreprt)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrreprt)              by `\normalfont \rmfamily ' on input line 53.
+(scrreprt)              by `\normalfont \rmfamily ' on input line 50.
 
-[11] <diagrams/rqt_hardware.png, id=314, 1523.6925pt x 785.93625pt>
+[11] <diagrams/rqt_hardware.png, id=306, 1523.6925pt x 785.93625pt>
 File: diagrams/rqt_hardware.png Graphic file (type png)
  <use diagrams/rqt_hardware.png>
-Package pdftex.def Info: diagrams/rqt_hardware.png used on input line 60.
+Package pdftex.def Info: diagrams/rqt_hardware.png used on input line 57.
 (pdftex.def)             Requested size: 384.1096pt x 198.12654pt.
 
-<pics/wii.jpg, id=315, 102.3825pt x 414.04688pt>
+<pics/wii.jpg, id=307, 102.3825pt x 414.04688pt>
 File: pics/wii.jpg Graphic file (type jpg)
  <use pics/wii.jpg>
-Package pdftex.def Info: pics/wii.jpg used on input line 67.
+Package pdftex.def Info: pics/wii.jpg used on input line 64.
 (pdftex.def)             Requested size: 55.48495pt x 224.39066pt.
 File: pics/lsr_logo.png Graphic file (type png)
  <use pics/lsr_logo.png>
-Package pdftex.def Info: pics/lsr_logo.png used on input line 90.
+Package pdftex.def Info: pics/lsr_logo.png used on input line 87.
 (pdftex.def)             Requested size: 32.041pt x 35.56593pt.
 
 
@@ -2423,25 +2409,25 @@ Class scrreprt Warning: Usage of deprecated font command `\rm'!
 (scrreprt)              Note also, that KOMA-Script will remove the definition
 (scrreprt)              of `\rm' anytime until release of about version 3.20.
 (scrreprt)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrreprt)              by `\normalfont \rmfamily ' on input line 90.
+(scrreprt)              by `\normalfont \rmfamily ' on input line 87.
 
-[12 <C:/Users/Alex/Documents/Uni/Job/LSR/Latex/diagrams/rqt_hardware.png> <C:/Users/Alex/Documents/Uni/Job/LSR/Latex/pic
-s/wii.jpg>]
+[12 <C:/Users/Alex/Documents/Uni/Job/LSR/tas_car/tas/doc/Latex/diagrams/rqt_hardware.png> <C:/Users/Alex/Documents/Uni/J
+ob/LSR/tas_car/tas/doc/Latex/pics/wii.jpg>]
 
-LaTeX Warning: Hyper reference `http://wiki.ros.org/wiimote?distro=indigo' on page 13 undefined on input line 91.
-
-
-LaTeX Warning: Hyper reference `http://wiki.ros.org/rosserial' on page 13 undefined on input line 102.
+LaTeX Warning: Hyper reference `http://wiki.ros.org/wiimote?distro=indigo' on page 13 undefined on input line 88.
 
 
-LaTeX Warning: Hyper reference `http://wiki.ros.org/hokuyo_node' on page 13 undefined on input line 108.
+LaTeX Warning: Hyper reference `http://wiki.ros.org/rosserial' on page 13 undefined on input line 99.
 
 
-LaTeX Warning: Hyper reference `http://wiki.ros.org/xsens_driver' on page 13 undefined on input line 115.
+LaTeX Warning: Hyper reference `http://wiki.ros.org/hokuyo_node' on page 13 undefined on input line 105.
+
+
+LaTeX Warning: Hyper reference `http://wiki.ros.org/xsens_driver' on page 13 undefined on input line 112.
 
 File: pics/lsr_logo.png Graphic file (type png)
 <use pics/lsr_logo.png>
-Package pdftex.def Info: pics/lsr_logo.png used on input line 117.
+Package pdftex.def Info: pics/lsr_logo.png used on input line 114.
 (pdftex.def)             Requested size: 32.041pt x 35.56593pt.
 
 
@@ -2456,18 +2442,18 @@ Class scrreprt Warning: Usage of deprecated font command `\rm'!
 (scrreprt)              Note also, that KOMA-Script will remove the definition
 (scrreprt)              of `\rm' anytime until release of about version 3.20.
 (scrreprt)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrreprt)              by `\normalfont \rmfamily ' on input line 117.
+(scrreprt)              by `\normalfont \rmfamily ' on input line 114.
 
-[13] <diagrams/rqt_odom.png, id=331, 939.51pt x 545.03625pt>
+[13] <diagrams/rqt_odom.png, id=323, 939.51pt x 545.03625pt>
 File: diagrams/rqt_odom.png Graphic file (type png)
  <use diagrams/rqt_odom.png>
-Package pdftex.def Info: diagrams/rqt_odom.png used on input line 123.
+Package pdftex.def Info: diagrams/rqt_odom.png used on input line 120.
 (pdftex.def)             Requested size: 384.1096pt x 222.83424pt.
 
-<pics/hector.png, id=336, 966.61125pt x 498.36188pt>
+<pics/hector.png, id=328, 966.61125pt x 498.36188pt>
 File: pics/hector.png Graphic file (type png)
  <use pics/hector.png>
-Package pdftex.def Info: pics/hector.png used on input line 144.
+Package pdftex.def Info: pics/hector.png used on input line 141.
 (pdftex.def)             Requested size: 426.79135pt x 220.04033pt.
 
 
@@ -2475,7 +2461,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: pics/lsr_logo.png Graphic file (type png)
 <use pics/lsr_logo.png>
-Package pdftex.def Info: pics/lsr_logo.png used on input line 152.
+Package pdftex.def Info: pics/lsr_logo.png used on input line 150.
 (pdftex.def)             Requested size: 32.041pt x 35.56593pt.
 
 
@@ -2490,22 +2476,15 @@ Class scrreprt Warning: Usage of deprecated font command `\rm'!
 (scrreprt)              Note also, that KOMA-Script will remove the definition
 (scrreprt)              of `\rm' anytime until release of about version 3.20.
 (scrreprt)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrreprt)              by `\normalfont \rmfamily ' on input line 152.
+(scrreprt)              by `\normalfont \rmfamily ' on input line 150.
 
-[14 <C:/Users/Alex/Documents/Uni/Job/LSR/Latex/diagrams/rqt_odom.png>]
+[14 <C:/Users/Alex/Documents/Uni/Job/LSR/tas_car/tas/doc/Latex/diagrams/rqt_odom.png>]
 
-LaTeX Warning: Reference `sec:tas_package_transformation' on page 15 undefined on input line 153.
-
-
-LaTeX Warning: Hyper reference `http://wiki.ros.org/hector_mapping' on page 15 undefined on input line 157.
-
-
-LaTeX Warning: Hyper reference `http://docs.ros.org/indigo/api/nav_msgs/html/msg/Odometry.html' on page 15 undefined on 
-input line 163.
+LaTeX Warning: Hyper reference `http://wiki.ros.org/hector_mapping' on page 15 undefined on input line 154.
 
 File: pics/lsr_logo.png Graphic file (type png)
 <use pics/lsr_logo.png>
-Package pdftex.def Info: pics/lsr_logo.png used on input line 172.
+Package pdftex.def Info: pics/lsr_logo.png used on input line 159.
 (pdftex.def)             Requested size: 32.041pt x 35.56593pt.
 
 
@@ -2520,55 +2499,27 @@ Class scrreprt Warning: Usage of deprecated font command `\rm'!
 (scrreprt)              Note also, that KOMA-Script will remove the definition
 (scrreprt)              of `\rm' anytime until release of about version 3.20.
 (scrreprt)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrreprt)              by `\normalfont \rmfamily ' on input line 172.
+(scrreprt)              by `\normalfont \rmfamily ' on input line 159.
 
-[15 <C:/Users/Alex/Documents/Uni/Job/LSR/Latex/pics/hector.png>]
-File: pics/lsr_logo.png Graphic file (type png)
- <use pics/lsr_logo.png>
-Package pdftex.def Info: pics/lsr_logo.png used on input line 172.
-(pdftex.def)             Requested size: 32.041pt x 35.56593pt.
-
-
-Class scrreprt Warning: Usage of deprecated font command `\rm'!
-(scrreprt)              You should note, that in 1994 font command `\rm' has
-(scrreprt)              been defined for compatiblitiy to Script 2.0 only.
-(scrreprt)              Now, after two decades of LaTeX2e and NFSS2, you
-(scrreprt)              shouldn't use such commands any longer and within
-(scrreprt)              KOMA-Script usage of `\rm' is definitely deprecated.
-(scrreprt)              See `fntguide.pdf' for more information about
-(scrreprt)              recommended font commands.
-(scrreprt)              Note also, that KOMA-Script will remove the definition
-(scrreprt)              of `\rm' anytime until release of about version 3.20.
-(scrreprt)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrreprt)              by `\normalfont \rmfamily ' on input line 172.
-
-[16] <pics/move_base_overview.png, id=358, 626.34pt x 256.157pt>
+[15 <C:/Users/Alex/Documents/Uni/Job/LSR/tas_car/tas/doc/Latex/pics/hector.png>]
+<pics/move_base_overview.png, id=344, 626.34pt x 256.157pt>
 File: pics/move_base_overview.png Graphic file (type png)
  <use pics/move_base_overview.png>
-Package pdftex.def Info: pics/move_base_overview.png used on input line 178.
+Package pdftex.def Info: pics/move_base_overview.png used on input line 165.
 (pdftex.def)             Requested size: 426.79135pt x 174.55185pt.
 
-
-LaTeX Warning: Reference `tas_package_drivers' on page 17 undefined on input line 190.
-
-
-LaTeX Warning: Reference `tas_package_odom' on page 17 undefined on input line 190.
-
-<pics/rviz_estimation.png, id=361, 874.76813pt x 677.53125pt>
+<pics/rviz_estimation.png, id=349, 874.76813pt x 677.53125pt>
 File: pics/rviz_estimation.png Graphic file (type png)
  <use pics/rviz_estimation.png>
-Package pdftex.def Info: pics/rviz_estimation.png used on input line 201.
+Package pdftex.def Info: pics/rviz_estimation.png used on input line 188.
 (pdftex.def)             Requested size: 426.79135pt x 330.56653pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: Reference `fig:' on page 17 undefined on input line 211.
-
 File: pics/lsr_logo.png Graphic file (type png)
 <use pics/lsr_logo.png>
-Package pdftex.def Info: pics/lsr_logo.png used on input line 212.
+Package pdftex.def Info: pics/lsr_logo.png used on input line 199.
 (pdftex.def)             Requested size: 32.041pt x 35.56593pt.
 
 
@@ -2583,18 +2534,15 @@ Class scrreprt Warning: Usage of deprecated font command `\rm'!
 (scrreprt)              Note also, that KOMA-Script will remove the definition
 (scrreprt)              of `\rm' anytime until release of about version 3.20.
 (scrreprt)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrreprt)              by `\normalfont \rmfamily ' on input line 212.
+(scrreprt)              by `\normalfont \rmfamily ' on input line 199.
 
-[17 <C:/Users/Alex/Documents/Uni/Job/LSR/Latex/pics/move_base_overview.png>]
+[16 <C:/Users/Alex/Documents/Uni/Job/LSR/tas_car/tas/doc/Latex/pics/move_base_overview.png>]
 
-LaTeX Warning: Hyper reference `http://wiki.ros.org/map_server' on page 18 undefined on input line 213.
-
-
-LaTeX Warning: Reference `sec:' on page 18 undefined on input line 220.
+LaTeX Warning: Hyper reference `http://wiki.ros.org/map_server' on page 17 undefined on input line 200.
 
 File: pics/lsr_logo.png Graphic file (type png)
 <use pics/lsr_logo.png>
-Package pdftex.def Info: pics/lsr_logo.png used on input line 221.
+Package pdftex.def Info: pics/lsr_logo.png used on input line 208.
 (pdftex.def)             Requested size: 32.041pt x 35.56593pt.
 
 
@@ -2609,14 +2557,14 @@ Class scrreprt Warning: Usage of deprecated font command `\rm'!
 (scrreprt)              Note also, that KOMA-Script will remove the definition
 (scrreprt)              of `\rm' anytime until release of about version 3.20.
 (scrreprt)              But for now, KOMA-Script will replace deprecated `\rm'
-(scrreprt)              by `\normalfont \rmfamily ' on input line 221.
+(scrreprt)              by `\normalfont \rmfamily ' on input line 208.
 
-[18 <C:/Users/Alex/Documents/Uni/Job/LSR/Latex/pics/rviz_estimation.png>]
+[17 <C:/Users/Alex/Documents/Uni/Job/LSR/tas_car/tas/doc/Latex/pics/rviz_estimation.png>]
 
-LaTeX Warning: Hyper reference `http://wiki.ros.org/amcl' on page 19 undefined on input line 222.
+LaTeX Warning: Hyper reference `http://wiki.ros.org/amcl' on page 18 undefined on input line 209.
 
 
-LaTeX Warning: Hyper reference `http://wiki.ros.org/move_base?distro=indigo' on page 19 undefined on input line 233.
+LaTeX Warning: Hyper reference `http://wiki.ros.org/move_base?distro=indigo' on page 18 undefined on input line 220.
 
 )
 File: pics/lsr_logo.png Graphic file (type png)
@@ -2638,7 +2586,7 @@ Class scrreprt Warning: Usage of deprecated font command `\rm'!
 (scrreprt)              But for now, KOMA-Script will replace deprecated `\rm'
 (scrreprt)              by `\normalfont \rmfamily ' on input line 50.
 
-[19] (C:\Users\Alex\Documents\Uni\Job\LSR\Latex\chapters/3_advanced.tex
+[18] (C:\Users\Alex\Documents\Uni\Job\LSR\tas_car\tas\doc\Latex\chapters/3_advanced.tex
 
 ! LaTeX Error: Command \makro already defined.
                Or name \end... illegal, see p.192 of the manual.
@@ -2654,30 +2602,30 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 Chapter 4.
-) [20
+) [19
 
 
 
-] ("C:\Users\Alex\Documents\Uni\Job\LSR\Latex\LSR - TAS.bbl"
+] ("C:\Users\Alex\Documents\Uni\Job\LSR\tas_car\tas\doc\Latex\LSR - TAS.bbl"
 
 LaTeX Warning: Empty `thebibliography' environment or \BreakBibliography
                before end of `thebibliography' environment on input line 10.
 
-) ("C:\Users\Alex\Documents\Uni\Job\LSR\Latex\LSR - TAS.todo")
+) ("C:\Users\Alex\Documents\Uni\Job\LSR\tas_car\tas\doc\Latex\LSR - TAS.todo")
 \tf@todo=\write8
- [21
+ [20
 
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 68.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 68.
 
-("C:\Users\Alex\Documents\Uni\Job\LSR\Latex\LSR - TAS.aux"
-(C:\Users\Alex\Documents\Uni\Job\LSR\Latex\chapters/0_frontpage.aux)
-(C:\Users\Alex\Documents\Uni\Job\LSR\Latex\chapters/1_overview.aux)
-(C:\Users\Alex\Documents\Uni\Job\LSR\Latex\chapters/4_setup.aux)
-(C:\Users\Alex\Documents\Uni\Job\LSR\Latex\chapters/2_tas_package.aux)
-(C:\Users\Alex\Documents\Uni\Job\LSR\Latex\chapters/3_advanced.aux))
+("C:\Users\Alex\Documents\Uni\Job\LSR\tas_car\tas\doc\Latex\LSR - TAS.aux"
+(C:\Users\Alex\Documents\Uni\Job\LSR\tas_car\tas\doc\Latex\chapters/0_frontpage.aux)
+(C:\Users\Alex\Documents\Uni\Job\LSR\tas_car\tas\doc\Latex\chapters/1_overview.aux)
+(C:\Users\Alex\Documents\Uni\Job\LSR\tas_car\tas\doc\Latex\chapters/4_setup.aux)
+(C:\Users\Alex\Documents\Uni\Job\LSR\tas_car\tas\doc\Latex\chapters/2_tas_package.aux)
+(C:\Users\Alex\Documents\Uni\Job\LSR\tas_car\tas\doc\Latex\chapters/3_advanced.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 68.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 68.
 Package rerunfilecheck Info: File `LSR*-*TAS.out' has not changed.
@@ -2692,22 +2640,21 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 68.
  ) 
 Here is how much of TeX's memory you used:
- 40718 strings out of 493921
- 906294 string characters out of 3144880
+ 40704 strings out of 493921
+ 906867 string characters out of 3144880
  1073380 words of memory out of 3000000
- 43092 multiletter control sequences out of 15000+200000
+ 43083 multiletter control sequences out of 15000+200000
  71062 words of font info for 146 fonts, out of 3000000 for 9000
  846 hyphenation exceptions out of 8191
- 75i,15n,80p,10416b,1003s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 75i,16n,80p,10416b,997s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/publ
-ic/pxfonts/rpcxr.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/pxfonts/rpxb.pfb><C:/Program Files (x86)/MiKT
-eX 2.9/fonts/type1/public/pxfonts/rpxr.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/txfonts/t1xtt.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/hel
-vetic/uhvr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files (x86)/MiKTeX 2
-.9/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on "LSR - TAS.pdf" (23 pages, 17366260 bytes).
+ic/pxfonts/rpcxr.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/pxfonts/rpxr.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/txfonts/t1xtt.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/pal
+atino/uplb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/urw/palatino/uplr8a.pfb>
+Output written on "LSR - TAS.pdf" (22 pages, 17359344 bytes).
 PDF statistics:
- 459 PDF objects out of 1000 (max. 8388607)
- 105 named destinations out of 1000 (max. 500000)
- 423 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 442 PDF objects out of 1000 (max. 8388607)
+ 100 named destinations out of 1000 (max. 500000)
+ 415 words of extra memory for PDF output out of 10000 (max. 10000000)
 

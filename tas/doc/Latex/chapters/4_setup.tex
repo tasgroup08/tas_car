@@ -19,7 +19,7 @@ The following chapter will show you how to connect the car to different power su
 
 
 
-\begin{wrapfigure}[13]{l}{0.35\textwidth}
+\begin{wrapfigure}[15]{l}{0.35\textwidth}
   \begin{center}
     \includegraphics[width=0.33\textwidth]{switches}
 		\caption{Switches for brushless motor}
@@ -27,13 +27,13 @@ The following chapter will show you how to connect the car to different power su
   \end{center}	
 \end{wrapfigure} 
 
-Power supply for the brushless motor can disconnected by a switch, which you can see in picture \reffig{} on the top. With the switch shown on the bottom you can select the source of the input signals for the brushless motor controller:
+Power supply for the brushless motor can disconnected by a switch, which you can see in picture \reffig{switches} on the top. With the switch shown on the bottom you can select the source of the input signals for the brushless motor controller:
 
 \begin{itemize}
 \item Position 1:\\
-In this position the input signal is taken from the ROS \texttt{/servo} topic (see section \refsec{} for more information).
+In this position the input signal is taken from the arduino, which receives it from the ROS \texttt{/servo} topic.
 \item Position 2:\\
-In this positon the input signal is taken from the receiver for the original remote controller (see section \refsec{} for more information).
+In this positon the input signal is taken directly from the receiver for the original remote controller. This receiver is connected directly to the brushless controller. It is not connected to the Arduino or the Linux-Board in any way.
 \end{itemize}
 
 
@@ -60,7 +60,7 @@ To power the board externally just connect the large 24-pin connector like it is
 	\caption{Connection to battery}
 	\label{fig:batt_power}
 \end{figure}
-To supply the board from battery, there is a 12V DC-DC Converter which you can see in picture \reffig{}. Just connect the battery and the converter like in the picture and the plug the 24-pin connector into the board.
+To supply the board from battery, there is a 12V DC-DC Converter which you can see in picture \reffig{batt_power} obove. Just connect the battery and the converter like in the picture and the plug the 24-pin connector into the board.
 
 
 

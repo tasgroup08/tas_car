@@ -21,20 +21,19 @@
 \contentsline {subsection}{\numberline {3.2.5}xsens\_driver}{13}{subsection.3.2.5}
 \contentsline {section}{\numberline {3.3}TAS-Odometry}{14}{section.3.3}
 \contentsline {subsection}{\numberline {3.3.1}hector\_mapping}{14}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}tas\_odom}{15}{subsection.3.3.2}
-\contentsline {section}{\numberline {3.4}Transformations}{16}{section.3.4}
-\contentsline {section}{\numberline {3.5}Navigation}{17}{section.3.5}
-\contentsline {subsection}{\numberline {3.5.1}map\_server}{18}{subsection.3.5.1}
-\contentsline {subsection}{\numberline {3.5.2}amcl}{18}{subsection.3.5.2}
-\contentsline {subsection}{\numberline {3.5.3}move\_base}{19}{subsection.3.5.3}
-\contentsline {subsection}{\numberline {3.5.4}tas\_autonomous\_control}{19}{subsection.3.5.4}
-\contentsline {chapter}{\numberline {4}Additional topics}{20}{chapter.4}
-\contentsline {section}{\numberline {4.1}Shell scripts}{20}{section.4.1}
-\contentsline {section}{\numberline {4.2}External RVIZ}{20}{section.4.2}
-\contentsline {section}{\numberline {4.3}VNC}{20}{section.4.3}
-\contentsline {section}{\numberline {4.4}Recording and playing data}{20}{section.4.4}
-\contentsline {section}{\numberline {4.5}Integrated Development Environments (IDE's)}{20}{section.4.5}
-\contentsline {section}{\numberline {4.6}Version control with git}{20}{section.4.6}
-\contentsline {section}{\numberline {4.7}Arduino code}{20}{section.4.7}
-\contentsline {section}{\numberline {4.8}Switching remote controller}{20}{section.4.8}
-\contentsline {chapter}{\nonumberline Bibliography}{21}{appendix*.21}
+\contentsline {section}{\numberline {3.4}Transformations}{15}{section.3.4}
+\contentsline {section}{\numberline {3.5}Navigation}{16}{section.3.5}
+\contentsline {subsection}{\numberline {3.5.1}map\_server}{17}{subsection.3.5.1}
+\contentsline {subsection}{\numberline {3.5.2}amcl}{17}{subsection.3.5.2}
+\contentsline {subsection}{\numberline {3.5.3}move\_base}{18}{subsection.3.5.3}
+\contentsline {subsection}{\numberline {3.5.4}tas\_autonomous\_control}{18}{subsection.3.5.4}
+\contentsline {chapter}{\numberline {4}Additional topics}{19}{chapter.4}
+\contentsline {section}{\numberline {4.1}Shell scripts}{19}{section.4.1}
+\contentsline {section}{\numberline {4.2}External RVIZ}{19}{section.4.2}
+\contentsline {section}{\numberline {4.3}VNC}{19}{section.4.3}
+\contentsline {section}{\numberline {4.4}Recording and playing data}{19}{section.4.4}
+\contentsline {section}{\numberline {4.5}Integrated Development Environments (IDE's)}{19}{section.4.5}
+\contentsline {section}{\numberline {4.6}Version control with git}{19}{section.4.6}
+\contentsline {section}{\numberline {4.7}Arduino code}{19}{section.4.7}
+\contentsline {section}{\numberline {4.8}Switching remote controller}{19}{section.4.8}
+\contentsline {chapter}{\nonumberline Bibliography}{20}{appendix*.21}

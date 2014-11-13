@@ -17,8 +17,8 @@ Class=LaTeXView
 Document=LSR - TAS.tex
 
 [Frame0_View0,0]
-TopLine=34
-Cursor=1475
+TopLine=51
+Cursor=2034
 
 [Frame1]
 Flags=0
@@ -71,8 +71,8 @@ Class=LaTeXView
 Document=chapters\2_tas_package.tex
 
 [Frame3_View0,0]
-TopLine=301
-Cursor=14609
+TopLine=174
+Cursor=8557
 
 [Frame4]
 Flags=0
@@ -107,8 +107,8 @@ Class=LaTeXView
 Document=chapters\1_overview.tex
 
 [Frame5_View0,0]
-TopLine=78
-Cursor=3120
+TopLine=54
+Cursor=2304
 
 [Frame6]
 Flags=0
@@ -143,10 +143,28 @@ Class=LaTeXView
 Document=chapters\4_setup.tex
 
 [Frame7_View0,0]
-TopLine=51
-Cursor=1937
+TopLine=53
+Cursor=2576
+
+[Frame8]
+Flags=0
+ShowCmd=1
+MinPos.x=-1
+MinPos.y=-1
+MaxPos.x=-1
+MaxPos.y=-1
+NormalPos.left=4
+NormalPos.top=26
+NormalPos.right=1190
+NormalPos.bottom=434
+Class=LaTeXView
+Document=makros.tex
+
+[Frame8_View0,0]
+TopLine=9
+Cursor=695
 
 [SessionInfo]
-FrameCount=8
-ActiveFrame=3
+FrameCount=9
+ActiveFrame=8
 

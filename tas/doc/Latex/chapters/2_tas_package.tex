@@ -4,7 +4,7 @@
 \chapter{The TAS-package}
 \label{sec:tas_package}
 
-This chapter will show you how to install the TAS-package and get the car running step-by-step. It will give you a short desription of each of the different components. The package contains several self-written nodes and launchfiles to run the hardware (Laserscanner, IMU, Arduino) and the so called Navigation Stack properly on the car. The Navigation Stack provides tools for high level tasks like path planning and localization. The TAS-package also brings some shell scripts to make the work quicker and more comfortable. The folder structure can be seen in picture \reffig{tas_folder_struct}.
+This chapter will show you how to install the TAS-package and get the car running step-by-step. It will give you a short desription of each of the different components. The package contains several self-written nodes and launchfiles to run the hardware (Laserscanner, IMU, Arduino) and the so called Navigation Stack properly on the car. The Navigation Stack provides tools for high level tasks like path planning and localization. The TAS-package also brings some shell scripts, for example to set up the ROS environment correctly. The folder structure can be seen in picture \reffig{tas_folder_struct}.
 
 Most of the files we need in this tutorial are found in the folder \texttt{tas/launch}.
 
@@ -23,32 +23,29 @@ As it was mentioned in the previous chapter the TAS-package can be found on GitH
 
 \shellcmd{cd \textasciitilde/catkin\_ws/src}\\
 \shellcmd{git clone https://github.com/LSR-TAS/tas\_car}\\
-\shellcmd{cd ..}\\
-\shellcmd{catkin\_make}\\
 
-If there occured no errors, the package has been built and the car is now ready to run. Before running anything you should also do the following preparations to make your work in the terminal a little more comfortable: 
-\\
-Open a terminal and type in:
+To get the package running there are some preperations needed. Switch to the \texttt{shell\_scripts} folder and run the \texttt{ros\_setup.sh} script:
 
-\shellcmd{sudo gedit \textasciitilde/.bashrc}}
+\shellcmd{cd \textasciitilde/catkin\_ws/src/tas\_car/tas/shell\_scripts}\\
+\shellcmd{./ros\_setup.sh}\\
 
-The \texttt{.bashrc} file is called everytime you open a terminal in Ubuntu. Each command you add to this file will be executed automatically when you open a new terminal. Add the following lines to the end of the textfile\footnote{Eventually you have to change the path of your catkin workspace directory}: 
-
-\texttt{PATH=\textasciitilde/catkin\_ws/src/tas\_car/tas/shell\_scripts:"\$PATH"}\\
-\texttt{source ros\_setup}\\
-
-\todo{Add ros/opt..../setup.bash to ros\_setup file, and change file extension}
-
-This will take the the following effects:
+The script will take the following effects:
 
 \begin{itemize}
-\item Add script folder:\\
-The first command will add the \texttt{shell\_scripts} folder (see picture \reffig{tas_folder_struct}) to the standard pathes. After that it is possible to run files from this folder without giving the full path. You can place your own shell scripts here to run them more quickly.
-
-\item Set USB access rights:\\
-The second command runs the \texttt{ros\_setup} file from the \texttt{shell\_scripts} folder. It mainly sets the correct access rights for the USB ports for the laserscanner and the Arduino Board.
+\item Set rules for USB devices :\\
+Usually Ubuntu names and numerates USB devices in a specific way. The numeration depends on the order in which the devices are plugged in. The script applies some rules to the system to assign clear names to the laserscanners and the arduino board.
+\item Set up ROS environment:\\
+Before working with ROS command line tools it is necessary to source a specific file. The script adds this command to the \texttt{~/.bashrc} file, which is executed each time you open a terminal. Therefore it is not required anymore to type in this command by hand. 
 \end{itemize}
 
+\textbf{After running the script, it is necessary to reboot the system.}
+
+When the system has restarted it is ready to build the package. Open a terminal, switch to your catkin workspace and type:
+
+\shellcmd{cd \textasciitilde/catkin\_ws}\\
+\shellcmd{catkin\_make}\\
+
+The package manager will now compile and build the code. If there occured no errors during the process the car is now ready to run! Before going on with the next section, please \textbf{reopen the terminal once}.
 
 \newpage
 \section{Hardware drivers}
@@ -125,7 +122,7 @@ The package provides a driver for several different IMUs from the XSens company.
 	\label{fig:rqt_odom}
 \end{figure}
 
-Currently there is no real odometry on the car available. For the navigation packages though odometry data is required (see picture \reffig{move_base_overview}). This was solved by implementation of a "fake-odometry". It uses position and orientation estimated from the laserscanner data, calculates the velocities and provides it as odometry data. 
+Currently there is no real odometry on the car available. For the navigation packages though odometry data is required (see picture \reffig{move_base_overview}). This was solved by using of a "fake-odometry". We take position and orientation estimated from the laserscanner data, and provide them as odometry data to the navigation package. 
 
 To launch the fake odometry open a terminal and run the odom.launch file:
 
@@ -148,23 +145,13 @@ The hector\_mapping node implements a SLAM-algorithm \footnote{Simultaneous Loca
 
 Unlike other solutions for localization (see the \texttt{amcl package} in section \refsec{tas_package_amcl}) it only needs data from the laserscanner and does not require any odometry inputs. This is the reason why we use it to provide the fake odometry.
 
-The estimated position and orientation is published to the \texttt{/poseupdate} (with covariance) and the \texttt{/slam\_out\_pose} topics (without covariance). These information are later used to calculate the velocity of the car (see next section \refsec{tas_package_odom_node}).
+The estimated position and orientation is published to the \texttt{/poseupdate} (with covariance) and the \texttt{/slam\_out\_pose} topics (without covariance). 
  
-For correct position estimation the node needs information about the relation between coordinate frame of the laserscanner and the coordinate frame of the car (refer to \refsec{tas_package_transformation} for an introduction to transformations and frames). 
+For correct position estimation the node needs information about the relation between coordinate frame of the laserscanner and the coordinate frame of the car (refer to the next section \refsec{tas_package_transformations} for an introduction to transformations and frames). 
 
 For more details about the parameters and settings of the package see:
 
 \hyperref[http://wiki.ros.org/hector_mapping]{http://wiki.ros.org/hector\_mapping}
-
-\subsection{tas\_odom}
-\label{sec:tas_package_odom_node}
-The tas\_odom node subscribes to the \texttt{/slam\_out\_pose} topic (see previous chapter \refsec{tas_package_odom_hector}) and calculates the velocity from the estimated position by determining the difference quotient. Position, orientation and velocity are then published to the \texttt{/odom} topic. See the following page for information about the content of odometry messages:
-
-\hyperref[http://docs.ros.org/indigo/api/nav_msgs/html/msg/Odometry.html]{http://docs.ros.org/indigo/api/nav\_msgs/html/msg/Odometry.html}
-
-Additionally it publishes the transformation from the odometry coordinate frame to the frame of the car. See the next section for more details about transformations.
-
-\todo{Velocity has to be in base\_link frame/tas\_odom publishes twist with velocity in odom frame}
 
 \section{Transformations}
 \label{sec:tas_package_transformations}
@@ -187,7 +174,7 @@ To run the Navigation Stack open a terminal and type in:
 \shellcmd{roscd tas/launch}\\
 \shellcmd{roslaunch move\_base.launch}
 
-The launch file will run all necessary parts of the Stack. Keep in mind that the hardware drivers and the TAS-Odometry package have to be launched before (see \ref{tas_package_drivers} for hardware drivers and \ref{tas_package_odom} for odometry).
+The launch file will run all necessary parts of the Stack. Keep in mind that the hardware drivers and the TAS-Odometry package have to be launched before (see \refsec{tas_package_drivers} for hardware drivers and \refsec{tas_package_odom} for odometry).
 
 To specify a goal for the car you can use the visualization tool RVIZ. Open a terminal and type in:
 
@@ -208,7 +195,7 @@ Alternately you can launch hardware drivers, TAS-Odometry, the Navigation Stack 
 
 \subsection{map\_server}
 \label{sec:tas_package_map_server}
-The \texttt{map\_server} node takes a 2-D map of the environment and provides it as a ROS-service to other nodes. For every map there has to be a configuration file. The map file and the configuration file are located in the \texttt{config} directory of the TAS-package (see picture \reffig{} for the folder structure). The path of these files can be changed in the launchfile. For more information about the parameters of the \texttt{map\_server} package refer to:
+The \texttt{map\_server} node takes a 2-D map of the environment and provides it as a ROS-service to other nodes. For every map there has to be a configuration file. The map file and the configuration file are located in the \texttt{config} directory of the TAS-package (see picture \reffig{tas_folder_struct} for the folder structure). The path of these files can be changed in the launchfile. For more information about the parameters of the \texttt{map\_server} package refer to:
 
 \hyperref[http://wiki.ros.org/map_server]{http://wiki.ros.org/map\_server}
 
@@ -217,7 +204,7 @@ The \texttt{map\_server} node takes a 2-D map of the environment and provides it
 \label{sec:tas_package_amcl}
 The \texttt{amcl} node implements different Monte Carlo localization algorithms to estimate the position of the robot. It requires a laserscanner, odometry and a map of the environment. The position and orientation with it's covariances is published to the \texttt{/amcl\_pose} topic.
 
-The node takes odometry data in form of the transformation between the odometry frame and the coordinate frame of the car. See section \refsec{} for information about the \texttt{tf package}. Refer also to the package documentation on:
+The node takes odometry data in form of the transformation between the odometry frame and the coordinate frame of the car. See section \refsec{tas_package_transformations} for information about the \texttt{tf package}. Refer also to the package documentation on:
 
 \hyperref[http://wiki.ros.org/amcl]{http://wiki.ros.org/amcl}
 
