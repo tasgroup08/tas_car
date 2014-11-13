@@ -30,7 +30,9 @@ echo "Set up ROS environment"
 echo "" >> ~/.bashrc
 echo "#Source commands to set up ROS environment" >> ~/.bashrc
 echo "source /opt/ros/indigo/setup.bash" >> ~/.bashrc
+echo "if [ -f ~/catkin_ws/devel/setup.bash ]; then" >> ~/.bashrc
 echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
+echo "fi"
 
 
 echo "------------------------------------"
