@@ -10,6 +10,7 @@ git pull origin modify_branch
 
 %%push
 
+git add --all
 git commit -a
 git push origin modify_branch
 
