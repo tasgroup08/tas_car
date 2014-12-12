@@ -44,10 +44,10 @@
 
 	  <!-- Laser model parameters-->
 	  <param name="laser_min_range" value="0.01"/>	<!-- changed -->
-	  <!--param name="laser_max_range" value="10.0"/-->
-	  <param name="laser_max_range" value="30.0"/> 	 	<!-- changed -->
-	  <!--param name="laser_max_beams" value="30"/-->
-	  <param name="laser_max_beams" value="90"/>  <!-- Anzahl Verwendeter lasermessungen, raw 1440/360° bei 270°-->
+	  <param name="laser_max_range" value="10.0"/>
+	  <!--param name="laser_max_range" value="30.0"/--> 	 	<!-- changed -->
+	  <param name="laser_max_beams" value="30"/>
+	  <!--param name="laser_max_beams" value="90"/-->  <!-- Anzahl Verwendeter lasermessungen, raw 1440/360° bei 270°-->
 	  <param name="laser_z_hit" value="0.95"/>
 	  <param name="laser_z_short" value="0.1"/>
 	  <param name="laser_z_max" value="0.05"/>
