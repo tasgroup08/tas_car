@@ -48,11 +48,29 @@
 	<remap from="map" to="/dynamic_map" />
 	<param name="map_file_path" type="string" value="/home/tas_group_08/hector_geotiff_maps" />
 	<param name="map_file_base_name" type="string" value="hector_slam_map" />
-	<param name="geotiff_save_period" type="double" value="20.0" />
+
+	<param name="geotiff_save_period" type="double" value="60.0" />
+
 	<param name="draw_background_checkerboard" type="bool" value="false" />
 	<param name="draw_free_space_grid" type="bool" value="false" />
   </node>
 
-	
+
+
+  <!--node pkg="robot_pose_ekf" type="robot_pose_ekf" name="robot_pose_ekf">
+	<remap from="vo" to="poseupdate" />
+	<remap from="imu_data" to="imu/data" />
+   <param name="output_frame" value="odom_combined"/>
+   <param name="freq" value="30.0"/>
+   <param name="sensor_timeout" value="1.0"/>
+   <param name="odom_used" value="false"/>
+    <param name="imu_used" value="true"/>
+    <param name="vo_used" value="true"/>
+    <param name="debug" value="false"/>
+    <param name="self_diagnose" value="false"/>
+  </node-->
+
+ 	
+
 
 </launch>
