@@ -33,10 +33,10 @@ double pre_th = 0.0; // previous orientation
 /**
  * Callback function to receive the estimated position from the hector node.
  */
-void hectorPoseCallback(const geometry_msgs::PoseStampedConstPtr& hector_msg) {
+void hectorPoseCallback(const nav_msgs::Odometry & hector_msg) {
     x_ = hector_msg->pose.position.x; // hector x position
     y_ = hector_msg->pose.position.y; // hector y position
-
+    cov= hector_msg->pose.covariance;
     hector_quaternion.z = hector_msg->pose.orientation.z; // hector z orientation
     hector_quaternion.w = hector_msg->pose.orientation.w; // hector z orientation
 }
@@ -51,16 +51,16 @@ int main(int argc, char** argv) {
     ros::NodeHandle nh;
 
     // set up subscriber and publisher
-    ros::Subscriber hector_pose_subscriber = nh.subscribe("slam_out_pose", 1, hectorPoseCallback); // buffer only 1 slam_out_pose message
-    ros::Publisher wheel_odom_pub = nh.advertise<nav_msgs::Odometry>("odom", 50); // buffer last 50 odom frames
+    ros::Subscriber hector_odom_subscriber = nh.subscribe("scanmatch_odom", 1, hectorPoseCallback); // buffer only 1 slam_out_pose message
+    ros::Publisher wheel_odom_pub = nh.advertise<nav_msgs::Odometry>("vo", 50); // buffer last 50 odom frames
     //    ros::Publisher visual_odom_pub = nh.advertise<nav_msgs::Odometry>("visual_odom", 50); // buffer last 50 odom frames
 
     tf::TransformBroadcaster odom_broadcaster;
 
     // declare and initialize messages
-    geometry_msgs::TransformStamped odom_trans;
-    odom_trans.header.frame_id = "odom";
-    odom_trans.child_frame_id = "base_link";
+    //geometry_msgs::TransformStamped odom_trans;
+   // odom_trans.header.frame_id = "odom";
+   // odom_trans.child_frame_id = "base_link";
 
     // declare and initialize messages
     nav_msgs::Odometry wheel_odom;
@@ -102,12 +102,12 @@ int main(int argc, char** argv) {
         th_dot = (th_ - pre_th)/dt;
 
         // publish the transform over tf
-        odom_trans.header.stamp = current_time;
-        odom_trans.transform.translation.x = x_;
-        odom_trans.transform.translation.y = y_;
-        odom_trans.transform.translation.z = 0.0;
-        odom_trans.transform.rotation = tf::createQuaternionMsgFromYaw(th_);
-        odom_broadcaster.sendTransform(odom_trans);	// send transform
+      //  odom_trans.header.stamp = current_time;
+      //  odom_trans.transform.translation.x = x_;
+      //  odom_trans.transform.translation.y = y_;
+     //   odom_trans.transform.translation.z = 0.0;
+      //  odom_trans.transform.rotation = tf::createQuaternionMsgFromYaw(th_);
+      //  odom_broadcaster.sendTransform(odom_trans);	// send transform
 
         // publish the wheel odometry message
         wheel_odom.header.stamp = current_time;
@@ -115,9 +115,11 @@ int main(int argc, char** argv) {
         wheel_odom.pose.pose.position.y = y_;
         wheel_odom.pose.pose.position.z = 0.0;
         wheel_odom.pose.pose.orientation = tf::createQuaternionMsgFromYaw(th_);
+        wheel_odom.pose.covariance=cov;
         wheel_odom.twist.twist.linear.x = x_dot;
         wheel_odom.twist.twist.linear.y = y_dot;
         wheel_odom.twist.twist.angular.z = th_dot;
+        wheel_odom.twist.covariance=cov*3;// high covariance is always better than nothing same nonzero elements
         wheel_odom_pub.publish(wheel_odom);	//publish message
 
         // update time and sleep with loop rate

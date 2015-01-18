@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<launch>
+  <master auto="start"/>
+  <param name="/use_sim_time" value="false"/>
+
+<node name="ImuFilter" pkg="imu_filter_madgwick" type="imu_filter_node">
+
+    <!--param name="gain" value="0.1"/>
+    <param name="zeta" value="0"/>
+    <param name="use_mag" value="false"/>
+    <param name="publish_tf" value="false" />
+    <param name="fixed_frame" value="odom_combined" />
+    <param name="constant_dt" value="0.0" /-->
+    
+</node>
+
+</launch>
+

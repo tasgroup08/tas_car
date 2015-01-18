@@ -1,0 +1,9 @@
+#image: LSR_3.tif0.055555558
+image: LSR_3ssg2.pgm
+resolution: 0.041666675
+#resolution: 0.05000
+
+origin: [0.000000, 0.000000, 0.000000]
+negate: 0
+occupied_thresh: 0.15 # unknown map areas considered impassable
+free_thresh: 0.05

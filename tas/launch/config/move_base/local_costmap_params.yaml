@@ -1,11 +1,11 @@
 local_costmap:
   global_frame: odom
   robot_base_frame: base_link
-  update_frequency: 5.0 #50
-  publish_frequency: 2.0
+  update_frequency: 10 # increased frequency for more recent obstacle data
+  publish_frequency: 5 # use recent data
   static_map: false
   rolling_window: true
-  width: 10
-  height: 10
-  resolution: 0.05
-  transform_tolerance: .2000
+  width: 5 #decrease extent of local costmap
+  height: 5
+  resolution: 0.041666675 #our maps resolution
+  transform_tolerance: 0.2000
